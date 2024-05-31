@@ -1,0 +1,49 @@
+# 依存関係
+/node_modules
+
+# ビルド生成物
+/dist
+/.next
+/.nuxt
+/.vuepress
+/build
+
+# システムファイル
+.DS_Store
+.Thumbs.db
+
+# 環境設定ファイル
+.env.local
+.env.*.local
+
+# デバッグファイル
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# プロジェクト固有の設定ファイル
+.idea
+.vscode
+*.swp
+
+#amplify-do-not-edit-begin
+amplify/\#current-cloud-backend
+amplify/.config/local-*
+amplify/logs
+amplify/mock-data
+amplify/mock-api-resources
+amplify/backend/amplify-meta.json
+amplify/backend/.temp
+build/
+dist/
+node_modules/
+aws-exports.js
+awsconfiguration.json
+amplifyconfiguration.json
+amplifyconfiguration.dart
+amplify-build-config.json
+amplify-gradle-config.json
+amplifytools.xcconfig
+.secret-*
+**.sample
+#amplify-do-not-edit-end
